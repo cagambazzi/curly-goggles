@@ -190,7 +190,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   display: flex;
   align-items: center;
   padding-top: 72px;
-  background: url('hero-bg.jpg') center center / cover no-repeat fixed;
+  background: url('hero-bg.jpg') center center / cover no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -199,7 +199,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(255,255,255,0.82) 30%, rgba(232,245,238,0.7) 100%);
+  background: linear-gradient(160deg, rgba(255,255,255,0.65) 30%, rgba(232,245,238,0.5) 100%);
   z-index: 0;
 }
 
