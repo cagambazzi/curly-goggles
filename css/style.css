@@ -729,27 +729,17 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   font-size: 0.875rem;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
-
-.footer-social {
+.contact-social {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: var(--gray-500);
+  color: var(--gray-300);
+  margin-bottom: 12px;
   transition: var(--transition);
 }
 
-.footer-social:hover {
-  color: var(--white);
-  background: #1877F2;
+.contact-social:hover {
+  color: #1877F2;
 }
 
 /* ===== Responsive ===== */
