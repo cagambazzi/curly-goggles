@@ -730,6 +730,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
 }
 
 .contact-social {
+  display: block;
   color: var(--gray-300);
   transition: var(--transition);
 }
@@ -739,7 +740,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
 }
 
 .contact-social svg {
-  display: block;
+  margin: 0 auto;
 }
 
 /* ===== Responsive ===== */
