@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
     '    <div class="contact-item">' +
     '      <div class="icon">&#x1F4CD;</div>' +
     '      <h4>Indirizzo</h4>' +
-    '      <p>Via Roma, 42 - 00100 Roma (RM)</p>' +
+    '      <p>Via Tiburtina 291 Pescara (PE)</p>' +
     '    </div>' +
     '    <div class="contact-item">' +
     '      <div class="icon">&#x1F4DE;</div>' +
     '      <h4>Telefono</h4>' +
-    '      <p>+39 06 1234567</p>' +
+    '      <p>+39 085 50322</p>' +
     '    </div>' +
     '    <div class="contact-item">' +
     '      <div class="icon">&#x1F4E7;</div>' +
