@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
   color: var(--gray-700);
   line-height: 1.6;
   background: var(--white);
+  overflow-x: hidden;
 }
 
 a {
@@ -777,16 +779,22 @@ h4 { font-size: 1.125rem; font-weight: 600; }
     right: 0;
     background: var(--white);
     flex-direction: column;
-    padding: 24px;
-    gap: 4px;
+    padding: 0;
+    gap: 0;
     border-bottom: 1px solid var(--gray-200);
     box-shadow: var(--shadow-md);
-    display: none;
     z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
   }
 
   .nav-links.open {
-    display: flex;
+    max-height: 400px;
+    visibility: visible;
+    padding: 16px 24px;
+    gap: 4px;
   }
 
   .nav-links a {
