@@ -771,8 +771,8 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   .section { padding: 64px 0; }
 
   .nav-links {
-    position: fixed;
-    top: 72px;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
     background: var(--white);
@@ -781,13 +781,12 @@ h4 { font-size: 1.125rem; font-weight: 600; }
     gap: 4px;
     border-bottom: 1px solid var(--gray-200);
     box-shadow: var(--shadow-md);
-    transform: translateY(-120%);
-    transition: var(--transition);
+    display: none;
     z-index: 999;
   }
 
   .nav-links.open {
-    transform: translateY(0);
+    display: flex;
   }
 
   .nav-links a {
@@ -975,7 +974,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   }
 
   .nav-links {
-    top: 60px;
+    padding: 20px;
   }
 
   .hero {
