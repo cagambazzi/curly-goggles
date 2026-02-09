@@ -190,7 +190,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   display: flex;
   align-items: center;
   padding-top: 72px;
-  background: url('http://www.farmaciatiburtina.it/wp-content/uploads/2016/09/06092016-425701829_5466443718539454775.jpg') center center / cover no-repeat fixed;
+  background: url('../img/hero-bg.jpg') center center / cover no-repeat fixed;
   position: relative;
   overflow: hidden;
 }
@@ -199,7 +199,7 @@ h4 { font-size: 1.125rem; font-weight: 600; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(255,255,255,0.92) 40%, rgba(232,245,238,0.85) 100%);
+  background: linear-gradient(160deg, rgba(255,255,255,0.82) 30%, rgba(232,245,238,0.7) 100%);
   z-index: 0;
 }
 
